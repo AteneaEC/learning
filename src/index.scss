@@ -22,12 +22,7 @@
       box-sizing: content-box;
       position: relative;
       top: 0.1em;
-      height: 1.75rem;
       margin-right: 1rem;
-      img {
-        display: block;
-        height: 100%;
-      }
     }
   }
 
@@ -415,7 +410,7 @@
   border-bottom: 2px solid #ed6c4d;
 }
 
-.bg-negro, .learning-header {
+.bg-negro{
   background-color: #303030 !important;
 }
 
@@ -428,19 +423,17 @@ div[data-testid="instructor-toolbar"] .row {
   margin: 0 !important;
 }
 
-.course-title-lockup{
-  color: white
-}
-
 .learning-header {
-  color: white !important;
-  border-bottom: 4px solid #3fa9f5;
+  border-bottom: 1px solid #3fa9f5;
   font-family: Inter,Helvetica Neue,Arial,sans-serif;
 }
 
-#root header .logo {
-  height: 100%;
-  top: 0;
+#root header .logo{
+  margin: 15px 0;
+}
+
+#root header .logo img{
+  height: 40px;
 }
 
 #root header .container-xl {
@@ -459,35 +452,10 @@ div[data-testid="instructor-toolbar"] .row {
   border-color: #3fa9f5;
 }
 
-.btn-outline-primary {
-  background-color: #3fa9f5 !important;
-  border-color: #3fa9f5 !important;
-  color: white !important;
-}
-
-.btn-inverse-outline-primary:hover, 
-.btn-brand:hover,
-.btn-outline-primary:hover
- {
-  background-color: #80d5fb !important;
-  border-color: #80d5fb !important;
-  color: white !important;
-  outline: none !important;
-}
-
-div[data-testid="dropdown"] button {
-  background-color: transparent;
-  color: white;
-  border: 1px solid #3fa9f5;
-}
-
 .learning-header .text-gray-700.mr-3 {
-  background-color: #3fa9f5;
   padding: 5px 15px;
-  border-radius: 4px;
   margin-left: 10px;
   text-decoration: none;
-  color: white !important;
 }
 
 #main-content .container-xl .row.w-100.mx-0.my-3.justify-content-between {
