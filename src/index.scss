@@ -73,11 +73,11 @@
 }
 
 .pgn__checkpoint[data-popper-placement^=bottom]>#pgn__checkpoint-arrow:after {
-    border-color: #0000 #0000 #ed6c4d;
+    border-color: #0000 #0000 #ed6c4d !important;
 }
 
 .pgn__checkpoint .pgn__checkpoint-breadcrumb.pgn__checkpoint-breadcrumb_active{
-  background-color: #3fa9f5;
+  background-color: #3fa9f5 !important;
 }
 
 .sequence-container {
@@ -413,7 +413,7 @@
 .nav-underline-tabs .nav-link:focus,
 .nav-underline-tabs .nav-link:hover {
   border-bottom: 0px;
-  background-color: #ed6c4d;
+  background-color: #ed6c4d !important;
   font-weight: normal;
 }
 
