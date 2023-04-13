@@ -72,6 +72,14 @@
   }
 }
 
+.pgn__checkpoint[data-popper-placement^=bottom]>#pgn__checkpoint-arrow:after {
+    border-color: #0000 #0000 #ed6c4d;
+}
+
+.pgn__checkpoint .pgn__checkpoint-breadcrumb.pgn__checkpoint-breadcrumb_active{
+  background-color: #3fa9f5;
+}
+
 .sequence-container {
   display: flex;
   flex-direction: column;
@@ -415,6 +423,10 @@
 
 .bg-azul {
   background-color: #285B83 !important;
+}
+
+.bg-azul .dropdown{
+  margin-bottom: 10px;
 }
 
 div[data-testid="instructor-toolbar"] {
