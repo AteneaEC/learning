@@ -66,34 +66,3 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
-
-@media (max-width: $small) {
-  .wrapper-footer{
-    footer{
-      .row{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-        text-align: center;
-        .col-sm{
-          display: flex;
-          flex-direction: column;
-          flex-basis: 100%;
-          flex: 1;
-        }
-      }
-      .social{
-        justify-content: center;
-      }
-    }
-    .last-col{
-      text-align: center;
-    }
-  }
-
-  .wrapper-footer .list-unstyled,
-  .wrapper-footer .last-col{
-    padding: 0;
-  }
-}
