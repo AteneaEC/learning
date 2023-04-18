@@ -411,7 +411,7 @@
   "tours.button.next": "Suivant",
   "tours.button.okay": "Okay",
   "tours.button.beginTour": "Commencer la visite guidée",
-  "tours.button.launchTour": "Lancer la visite guidée",
+  "tours.button.launchTour": "Visite initiale",
   "tours.newUserModal.body": "Faisons un tour rapide de {siteName} afin que vous puissiez tirer le meilleur parti de votre cours.",
   "tours.newUserModal.title.welcome": "Bienvenue à votre",
   "tours.button.skipForNow": "Ignorer pour l'instant",
