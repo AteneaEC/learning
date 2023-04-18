@@ -443,6 +443,12 @@ div[data-testid="instructor-toolbar"] .row {
   font-family: Inter, Helvetica Neue, Arial, sans-serif;
 }
 
+#root header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #root header .logo {
   margin: 15px 0;
 }
@@ -458,15 +464,8 @@ div[data-testid="instructor-toolbar"] .row {
 #root header .text-gray-700 {
   font-size: 0px !important;
   position: relative;
-  left: 9rem;
+  order: 2;
 }
-
-@media (max-width: 1645px) {
-  #root header .text-gray-700 {
-    left: 0;
-  }
-}
-
 #root header .text-gray-700 {
   content: "";
   background-image: url('./assets/help.jpg');
@@ -474,6 +473,10 @@ div[data-testid="instructor-toolbar"] .row {
   display: inline-block;
   width: 30px;
   height: 30px;
+}
+
+#root header .user-dropdown {
+  order: 1;
 }
 
 .btn-inverse-outline-primary,
