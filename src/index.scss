@@ -458,7 +458,7 @@ div[data-testid="instructor-toolbar"] .row {
 }
 
 #root header .container-xl {
-  padding: 0 15px 0 0 !important;
+  padding: 0 15px 0 15px !important;
 }
 
 #root header .text-gray-700 {
@@ -3655,4 +3655,10 @@ svg:not(:host).svg-inline--fa {
 
 .fa-meetup:before {
   content: "";
+}
+
+@media (max-width:576px) {
+  .sequence-container{
+    width: 100%;
+  }
 }
