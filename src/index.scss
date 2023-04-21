@@ -468,7 +468,7 @@ div[data-testid="instructor-toolbar"] .row {
 }
 #root header .text-gray-700 {
   content: "";
-  background-image: url('./assets/help.svg');
+  background-image: url('./assets/help.jpg');
   background-size: cover;
   display: inline-block;
   width: 30px;
@@ -3661,4 +3661,26 @@ svg:not(:host).svg-inline--fa {
   .sequence-container{
     width: 100%;
   }
+}
+
+.pgn__modal-body{
+  overflow: hidden !important;
+}
+
+#courseTabsNavigation{
+  margin-top: 50px;
+}
+
+.btn-outline-secondary:disabled svg{
+  filter: invert(89%) sepia(0%) saturate(1816%) hue-rotate(173deg) brightness(81%) contrast(122%);
+}
+
+.btn-outline-secondary:disabled{
+  border-color: #454545 !important;
+  color: #454545 !important;
+}
+
+.btn-outline-secondary{
+  border-color: #3fa9f5 !important;
+  color: #3fa9f5 !important;
 }
