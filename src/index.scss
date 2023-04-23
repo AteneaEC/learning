@@ -429,10 +429,6 @@
   margin-bottom: 10px;
 }
 
-div[data-testid="instructor-toolbar"] {
-  margin-bottom: 50px;
-}
-
 div[data-testid="instructor-toolbar"] .row {
   justify-content: end;
   margin: 0 !important;
@@ -3668,7 +3664,7 @@ svg:not(:host).svg-inline--fa {
 }
 
 #courseTabsNavigation{
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .btn-outline-secondary:disabled svg{
