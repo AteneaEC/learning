@@ -2,7 +2,7 @@ import React, {
   Component,
 } from 'react';
 import PropTypes from 'prop-types';
-import { injectIntl, intlShape } from '@edx/frontend-platform/i18n';
+import { FormattedMessage,injectIntl, intlShape } from '@edx/frontend-platform/i18n';
 import { Dropdown } from '@edx/paragon';
 
 import { UserMessagesContext } from '../../generic/user-messages';
@@ -120,7 +120,11 @@ class MasqueradeWidget extends Component {
     return (
       <div className="flex-grow-1">
         <div className="row">
-          <span className="col-auto col-form-label pl-3">Ver este curso como:</span>
+          <span className="col-auto col-form-label pl-3"><FormattedMessage
+                  id="learning.viewCourseIn"
+                  defaultMessage="Ver curso en"
+                  description="Ver curso en"
+                />:</span>
           <Dropdown className="flex-shrink-1 mx-1">
             <Dropdown.Toggle variant="inverse-outline-primary">
               {masquerade}

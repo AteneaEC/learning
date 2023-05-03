@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { getConfig } from '@edx/frontend-platform';
-
+import { FormattedMessage } from '@edx/frontend-platform/i18n';
 import { ALERT_TYPES, AlertList } from '../generic/user-messages';
 import Alert from '../generic/user-messages/Alert';
 import MasqueradeWidget from './masquerade-widget';
@@ -74,7 +74,11 @@ export default function InstructorToolbar(props) {
           {(urlStudio || urlInsights) && (
             <>
               <hr className="border-light" />
-              <span className="mr-2 mt-1 col-form-label">Ver curso en:</span>
+              <span className="mr-2 mt-1 col-form-label"><FormattedMessage
+                  id="learning.viewAs"
+                  defaultMessage="Ver este curso como"
+                  description="Ver este curso como"
+                />:</span>
             </>
           )}
           {urlStudio && (
