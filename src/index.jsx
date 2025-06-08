@@ -1,10 +1,9 @@
 import {
   APP_INIT_ERROR, APP_READY, subscribe, initialize,
   mergeConfig,
-  getConfig,
 } from '@edx/frontend-platform';
 import { AppProvider, ErrorPage, PageWrap } from '@edx/frontend-platform/react';
-import React from 'react';
+// import React from 'react';
 import ReactDOM from 'react-dom';
 import { Routes, Route } from 'react-router-dom';
 
@@ -36,11 +35,13 @@ import DecodePageRoute from './decode-page-route';
 import { DECODE_ROUTES, ROUTES } from './constants';
 import PreferencesUnsubscribe from './preferences-unsubscribe';
 
+import icoimage from './favicon.ico';
+
 subscribe(APP_READY, () => {
   ReactDOM.render(
     <AppProvider store={initializeStore()}>
       <Helmet>
-        <link rel="shortcut icon" href={getConfig().FAVICON_URL} type="image/x-icon" />
+        <link rel="shortcut icon" href={icoimage} type="image/x-icon" />
       </Helmet>
       <PathFixesProvider>
         <NoticesProvider>

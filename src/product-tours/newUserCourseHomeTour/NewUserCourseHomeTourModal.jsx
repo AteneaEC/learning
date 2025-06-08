@@ -30,7 +30,7 @@ const NewUserCourseHomeTourModal = ({
           <ModalDialog.Title as="h2">
             <FormattedMessage
               id="tours.newUserModal.title"
-              defaultMessage="{welcome} {siteName} course!"
+              defaultMessage="Bienvenido - {siteName}"
               values={{
                 siteName: getConfig().SITE_NAME,
                 welcome: <span className="text-accent-b">{intl.formatMessage(messages.newUserModalTitleWelcome)}</span>,
