@@ -16,6 +16,15 @@
     }
   }
 
+  .nav{
+    &.nav-underline-tabs{
+      a{
+        background-color: #ed6c4d !important;
+      }
+    }
+  }
+
+
   .nav-bar {
     display: flex;
     justify-content: space-between;

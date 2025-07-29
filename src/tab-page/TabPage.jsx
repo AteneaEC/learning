@@ -110,7 +110,7 @@ const TabPage = ({ intl, ...props }) => {
             <div class="col-sm1 last-col">
               <div class="footer-about-openedx">
                 <h5>
-                  <a href="https://app.atenea.digital/">
+                  <a href="https://atenea.digital/">
                     <img src="/static/logo_foot.png" alt="Atenea" width="140" />
                   </a>
                 </h5>
@@ -126,7 +126,7 @@ const TabPage = ({ intl, ...props }) => {
               </div>
             </div>
           </div>
-          <p class="copyright small">© 2022 <a href="https://app.atenea.digital/">Atenea Lifelong Learning</a></p>
+          <p class="copyright small">© 2025 <a href="https://atenea.digital/">Atenea Lifelong Learning</a></p>
         </footer>
       </div>
     </>

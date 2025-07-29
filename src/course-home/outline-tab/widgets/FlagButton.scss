@@ -35,3 +35,21 @@
   flex-basis: calc(var(--modifier) * 999);
   margin: var(--margin);
 }
+
+.course-tabs-navigation {
+  .nav{
+    &.nav-underline-tabs{
+      margin: 0 0 10px;
+      border-bottom: 2px solid #ed6c4d;
+      a{
+        background-color: lightgray !important;
+        font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 0 0 0 0 !important;
+        padding: 10px 15px 13px 15px;
+        &.active{
+          background-color: #ed6c4d !important;
+        }
+      }
+    }
+  }
+}

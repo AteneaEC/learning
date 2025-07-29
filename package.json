@@ -33,7 +33,7 @@
     "url": "https://github.com/openedx/frontend-app-learning/issues"
   },
   "dependencies": {
-    "@edx/brand": "npm:@openedx/brand-openedx@^1.2.2",
+    "@edx/brand": "github:AteneaEC/brand-openedx#master",
     "@edx/browserslist-config": "1.2.0",
     "@edx/frontend-component-header": "^5.8.0",
     "@edx/frontend-lib-learning-assistant": "^2.2.4",
@@ -48,7 +48,6 @@
     "@openedx/frontend-build": "14.1.2",
     "@openedx/frontend-plugin-framework": "^1.2.1",
     "@openedx/frontend-slot-footer": "^1.0.2",
-    "@openedx/paragon": "^22.3.0",
     "@popperjs/core": "2.11.8",
     "@reduxjs/toolkit": "1.8.1",
     "buffer": "^6.0.3",
